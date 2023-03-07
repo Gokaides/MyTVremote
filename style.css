@@ -1,0 +1,92 @@
+/* _____________________GLOBAL______________________________________ */
+body {
+    background-color: rgb(190, 186, 186);
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+/* _____________________________NAV________________________________ */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.canal {
+    width: 200px;
+    height: 100px;
+    border: 0px solid black;
+    border-radius: 10% 10% 10% 10% / 20% 20% 20% 20%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: inline-block;
+}
+
+.canal img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.canal a:hover {
+    opacity: 0.6;
+}
+/* __________________________BODY______________________ */
+h1 {
+    margin-top:2%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(to right,grey,black,grey);
+}
+/* _________________________MyTF1______________________ */
+
+.container {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+}
+
+.gptf1 {
+    background: linear-gradient(to right, blue, red);
+}
+
+.gpfrtv {
+    background: linear-gradient(to right, orange,yellow,lightgreen, skyblue);
+}
+
+.gpcplus {
+    background: linear-gradient(black,15%,white,85%,black);
+}
+
+.gpm6 {
+    background: linear-gradient(to right, grey,white,45%,red,60%,white,grey);
+
+}
+
+.gpnrj {
+    background: linear-gradient(160deg,red,20%,white,80%,black);
+}
+
+.gpaltice {
+    background: linear-gradient(to right,grey,15%,white,white,85%,grey);
+}
+
+.gpamaury {
+    background: radial-gradient(white,25%,red,45%,darkblue);
+}
+
+.gpassemblee {
+    background: linear-gradient(to right, blue,15%,white,white,85%,red);
+}
+
+.gpeuro {
+    background: radial-gradient(blue,40%,yellow,60%,blue);
+}
